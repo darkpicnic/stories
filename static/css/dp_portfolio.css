@@ -292,7 +292,12 @@ h2 {
 
 
 
-@media handheld, only screen and (max-width: 767px) {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+
 
 	.project-row .content,
 	.bio {
